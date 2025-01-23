@@ -1,0 +1,13 @@
+.button {
+    margin: 10px auto;
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: rgba(33, 33, 33, .5);
+    color: antiquewhite;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: coral;
+}
