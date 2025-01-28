@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./inputForm.module.css";
 
-function InputForm({ type, placeholder }) {
+function InputForm({ type, placeholder, onChange }) {
     return(
         <input 
             type={ type } 
@@ -9,6 +9,7 @@ function InputForm({ type, placeholder }) {
             placeholder={ placeholder }
             minLength="6"
             maxLength="20"
+            onChange={ onChange }
             required
         />
     );

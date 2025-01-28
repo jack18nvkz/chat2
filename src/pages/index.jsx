@@ -1,8 +1,7 @@
-import React from "react";
 import style from './index.module.css';
 import ButtonForm from '../components/UI/buttonForm/buttonForm';
 
-function Index(){
+export default function Index(){
     return (
         <div className={ style.index }>
             <ButtonForm>Login</ButtonForm>
@@ -10,5 +9,3 @@ function Index(){
         </div>
     );
 }
-
-export default Index;
